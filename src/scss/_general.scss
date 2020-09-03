@@ -19,7 +19,7 @@ html {
 ::before {
   margin: 0;
   padding: 0;
-  // box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -203,12 +203,16 @@ nav {
 }
 
 .fixed-nav .links a {
-  color: var(--clr-primary-1);
+  color: var(--clr-grey-1);
 }
 
 .fixed-nav .links a:hover {
-  color: var(--clear-gold);
+  color: var(--clear-secondary);
 }
+
+// .fixed-nav .links-container {
+//   height: auto !important;
+// } 
 
 .nav-header {
   display: flex;
@@ -218,7 +222,7 @@ nav {
 
 .nav-toggle {
   font-size: 1.5rem;
-  color: var(--clr-primary-1);
+  color: var(--clr-grey-1);
   background: transparent;
   border-color: transparent;
   transition: var(--transition);
@@ -226,7 +230,7 @@ nav {
 }
 
 .nav-toggle:hover {
-  color: var(--clear-gold);
+  color: var(--clr-secondary);
 }
 
 .logo {
@@ -245,7 +249,7 @@ nav {
 
 .links a {
   background: var(--clr-white);
-  color: var(--clr-primary-1);
+  color: var(--clr-grey-5);
   font-size: 1.1rem;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
@@ -256,12 +260,12 @@ nav {
 }
 
 .links a:hover {
-  color: var(--clear-gold);
+  color: var(--clr-grey-1);
 }
 
 @media screen and (min-width: 800px) {
   nav {
-    background: var(--clr-white);
+    background: transparent;
   }
 
   .nav-center {
@@ -291,7 +295,7 @@ nav {
 
   .links a {
     background: transparent;
-    color: var(--clr-primary-5);
+    color: var(--clr-white);
     font-size: 1.1rem;
     text-transform: capitalize;
     letter-spacing: var(--spacing);
@@ -657,7 +661,7 @@ scroll to top
   position: fixed;
   bottom: 3rem;
   right: 3rem;
-  background: var(--clear-gold);
+  background: var(--clear-secondary);
   width: 2rem;
   height: 2rem;
   display: grid;
@@ -665,7 +669,6 @@ scroll to top
   border-radius: var(--radius);
   color: var(--clr-white);
   animation: bounce 2s ease-in-out infinite;
-
   visibility: hidden;
   z-index: -100;
 }
