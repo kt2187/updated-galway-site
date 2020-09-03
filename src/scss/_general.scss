@@ -376,7 +376,7 @@ section and titles
 #about,
 #events,
 #contact {
-  height: 120vh;
+  height: 100vh;
 }
 
 /*
@@ -444,6 +444,10 @@ events
   margin-bottom: 3rem;
 }
 
+#events {
+  height: 200vh;
+}
+
 .article-title {
   text-align: center;
   color: var(--clr-primary-1);
@@ -500,6 +504,9 @@ events
 directions
 ===============
 */
+#directions {
+  height: 100vh;
+}
 
 .directions-img,
 .directions-info {
@@ -512,6 +519,7 @@ directions
   padding-bottom:56.25%;
   position:relative;
   height:0;
+  z-index: -1; 
 }
 
 .directions-img iframe {
