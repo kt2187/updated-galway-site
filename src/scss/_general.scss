@@ -461,23 +461,23 @@ events
 
 #events {
   height: 260vh;
-  background-color: var(--clr-primary-1);
+  background: var(--clr-grey-10);
 }
 
 #events-title {
-  color: white;
+  color: var(--clr-primary-1);
 }
 
 .event-text {
   font-size: 1.25rem;
-  color: #95c0a8;
+  color: var(--clr-primary-1);
   text-align: left;
   padding: 0 0 1rem 1rem;
 }
 
 .article-title {
   text-align: center;
-  color: var(--clr-gold);
+  color: var(--clr-primary-1);
   font-size: 1.50rem;
 }
 
@@ -515,10 +515,6 @@ events
 }
 
 @media screen and (min-width: 1170px) {
-  .event {
-    display: flex;
-    text-align: left;
-  }
   .event-icon {
     align-self: start;
   }
