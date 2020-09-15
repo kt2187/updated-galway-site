@@ -186,6 +186,10 @@ var menu = [
     sectionCenterMenu = document.querySelector(".section-center-menu"),
     container = document.querySelector(".btn-container");
 
+    window.addEventListener("DOMContentLoaded", function () {
+    displayMenuitems(menu), displayMenuButtons();
+});
+
     function displayMenuitems(menuItems) {
       let displayMenu = menuItems.map(function (item) {
           //console.log(item);
@@ -238,6 +242,4 @@ var menu = [
       });
   }
   
-// window.addEventListener("DOMContentLoaded", function () {
-//     displayMenuitems(menu), displayMenuButtons();
-// });
+
