@@ -117,14 +117,14 @@ var menu = [
           category: "sides", 
           price: 3.99, 
           img: "./images/fries.jpg", 
-          desc: "Matchstick potatoes deep-fried until golden brown. " 
+          desc: "Matchstick potatoes deep-fried until golden brown. Servered with your choice of condiment. " 
         },
         { id: 6, 
           title: "Seasonal Vegetables", 
           category: "sides", 
           price: 3.99, 
           img: "./images/veggies.png", 
-          desc: "Fresh seasonal vegetables. See server for details" 
+          desc: "Fresh seasonal vegetables. Depends on availability. See server for details" 
         },
         { 
           id: 7, 
@@ -132,7 +132,7 @@ var menu = [
           category: "sides", 
           price: 3.99, 
           img: "./images/potatoes.jpg", 
-          desc: "Crispy on the outside and creamy soft on the inside." 
+          desc: "Crispy on the outside and creamy soft on the inside. Be sure to try this delicious classic." 
         },
         { 
           id: 8, 
@@ -148,7 +148,7 @@ var menu = [
           category: "entrees", 
           price: 16.99, 
           img: "./images/steak-tips.jpg", 
-          desc: "Served with seasonal vegetables and roasted red potatoes." 
+          desc: "Steak tips cooked to order. Served with seasonal vegetables and roasted red potatoes." 
         },
         {
             id: 10,
@@ -179,7 +179,7 @@ var menu = [
           category: "dessert", 
           price: 7.99, 
           img: "./images/oreos.jpg", 
-          desc: "6 Oreos battered and fried servered with house made icing." 
+          desc: "Six delicious Oreos battered and fried servered with house made icing." 
         },
     ],
 
